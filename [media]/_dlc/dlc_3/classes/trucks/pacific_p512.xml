@@ -7,10 +7,10 @@
 		/>
 		<FrontWheel
 			Location="front"
-			SteeringAngle="36"
+			SteeringAngle="39"
 			SteeringCastor="5"
 			SteeringJointOffset="0.25"
-			Torque="connectable"
+			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
 	</Wheel>
@@ -68,12 +68,12 @@
 <Truck>
 	<TruckData
 		BackSteerSpeed="0.015"
-		DiffLockType="Installed"
+		DiffLockType="Always"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.2"
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
-		FuelCapacity="200"
+		FuelCapacity="500"
 		Responsiveness="0.15"
 		SteerSpeed="0.03"
 		TruckImage="pacificp512mchr"
@@ -148,7 +148,7 @@
 		<LimitedFluid Center="(2.097; 1.054; 0.773)" LengthX="1.323" RadiusY="0.311" RadiusZ="0.310" Type="Cylinder" />
 		<Intake Dir="(1; 0; 0)" Origin="(4.734; 1.792; 0)" Size="1" />
 		<GearboxSocket Default="g_truck_default" Type="gearboxes_trucks" />
-		<FuelTank DamageCapacity="50" />
+		<FuelTank DamageCapacity="70" />
 		<EngineSocket Default="us_truck_old_heavy_engine_0" Type="e_us_truck_old_heavy" />
 		<Driver
 			AnimationSet="HeavyTruck"
