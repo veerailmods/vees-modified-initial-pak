@@ -130,6 +130,6 @@
 		/>
 		<InstallSocket Type="EarthroamerRadar" />
 		<AddonType Name="Watchtower" />
-		<Watchtower radius="200" radiusTransp="350" fuelCostsPerActivation="15" />
+		<Watchtower radius="600" radiusTransp="1000" fuelCostsPerActivation="20" />
 	</GameData>
 </TruckAddon>
